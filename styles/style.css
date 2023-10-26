@@ -1,0 +1,26 @@
+body{
+    background-color: beige;
+}
+
+
+:root{
+    --theme-gradient-danger:linear-gradient(to right top, #c11979, #cb186a, #d2205a, #d62d4b, #d73b3b);
+    
+    
+    
+
+}
+
+
+
+.bg-gradientdanger {
+    background-image: var(--theme-gradient-danger)  !important;
+
+
+}
+
+.logo-image{
+    height: 70px;
+    width: 100px;
+    object-fit: contain;
+}
